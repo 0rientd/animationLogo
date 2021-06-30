@@ -52,7 +52,7 @@ struct FinalView : View {
                             self.shadowLogo = CGFloat(5)
                         }
                         
-                        withAnimation(.easeInOut(duration: 4)) {
+                        withAnimation(.easeInOut(duration: 4.3)) {
                             self.degrees = 765.0
                         }
                 }
